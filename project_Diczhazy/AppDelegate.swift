@@ -1,10 +1,8 @@
-//
-//  AppDelegate.swift
-//  project_Diczhazy
-//
-//  Created by John Diczhazy on 3/30/19.
-//  Copyright © 2019 John Diczhazy. All rights reserved.
-//
+// Project:     Capstone IOS Project
+// Author:      John Diczhazy
+// Date:        4/3/19
+// File:        AppDelegate.swift
+// Description: App Delegate
 
 import UIKit
 import CoreData

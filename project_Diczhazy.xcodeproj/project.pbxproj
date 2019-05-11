@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5550D2A32254FFC000BD2B53 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550D2A22254FFC000BD2B53 /* PreferencesViewController.swift */; };
 		B1112A20224FDB3500D81BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1112A1F224FDB3500D81BD7 /* AppDelegate.swift */; };
 		B1112A23224FDB3500D81BD7 /* project_Diczhazy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1112A21224FDB3500D81BD7 /* project_Diczhazy.xcdatamodeld */; };
 		B1112A25224FDB3500D81BD7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1112A24224FDB3500D81BD7 /* MasterViewController.swift */; };
@@ -14,9 +15,11 @@
 		B1112A2A224FDB3500D81BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1112A28224FDB3500D81BD7 /* Main.storyboard */; };
 		B1112A2C224FDB3B00D81BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1112A2B224FDB3B00D81BD7 /* Assets.xcassets */; };
 		B1112A2F224FDB3B00D81BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1112A2D224FDB3B00D81BD7 /* LaunchScreen.storyboard */; };
+		B1112A37224FDC6B00D81BD7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1112A36224FDC6B00D81BD7 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5550D2A22254FFC000BD2B53 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		B1112A1C224FDB3500D81BD7 /* project_Diczhazy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_Diczhazy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1112A1F224FDB3500D81BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1112A22224FDB3500D81BD7 /* project_Diczhazy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = project_Diczhazy.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		B1112A2B224FDB3B00D81BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1112A2E224FDB3B00D81BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1112A30224FDB3B00D81BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1112A36224FDC6B00D81BD7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				B1112A1F224FDB3500D81BD7 /* AppDelegate.swift */,
 				B1112A24224FDB3500D81BD7 /* MasterViewController.swift */,
 				B1112A26224FDB3500D81BD7 /* DetailViewController.swift */,
+				5550D2A22254FFC000BD2B53 /* PreferencesViewController.swift */,
+				B1112A36224FDC6B00D81BD7 /* CustomCell.swift */,
 				B1112A28224FDB3500D81BD7 /* Main.storyboard */,
 				B1112A2B224FDB3B00D81BD7 /* Assets.xcassets */,
 				B1112A2D224FDB3B00D81BD7 /* LaunchScreen.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				B1112A20224FDB3500D81BD7 /* AppDelegate.swift in Sources */,
 				B1112A23224FDB3500D81BD7 /* project_Diczhazy.xcdatamodeld in Sources */,
+				B1112A37224FDC6B00D81BD7 /* CustomCell.swift in Sources */,
 				B1112A25224FDB3500D81BD7 /* MasterViewController.swift in Sources */,
 				B1112A27224FDB3500D81BD7 /* DetailViewController.swift in Sources */,
+				5550D2A32254FFC000BD2B53 /* PreferencesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
