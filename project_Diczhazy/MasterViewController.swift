@@ -395,19 +395,19 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         }
         else if textFieldType == "Input Frequency"
         {
-            return String(147.164+(Double(count)*0.001))
+            return String(format: "%.3f", (147.164+(Double(count)*0.001)))
         }
         else if textFieldType == "Output Frequency"
         {
-            return String(147.764+(Double(count-1)*0.001))
+            return String(format: "%.3f", (147.764+(Double(count-1)*0.001)))
         }
         else if textFieldType == "Uplink Tone"
         {
-            return String(110.8+(Double(count)*0.1))
+            return String(format: "%.2f", (110.8+(Double(count)*0.1)))
         }
         else if textFieldType == "Downlink Tone"
         {
-            return String(110.9+(Double(count-1)*0.1))
+            return String(format: "%.2f", (110.9+(Double(count-1)*0.1)))
         }
         else if textFieldType == "Offset"
         {
